@@ -38,7 +38,7 @@ def main():
         total_sum = 0
 
         for line in lines:
-            line = line.strip()  # Remove any leading/trailing whitespace
+            line = line.strip()
             two_digit_number = process_line(line)
             total_sum += two_digit_number
 
